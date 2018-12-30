@@ -1,7 +1,7 @@
 ---
 
 - name: Deploy Terraform
-  hosts: all
+  hosts: localhost
   gather_facts: False
   become: true
   roles:

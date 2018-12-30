@@ -2,11 +2,13 @@
 
 - name: Install wget
   yum:
+    use_backend: yum
     name: wget
     state: latest
 
 - name: Install unzip
   yum:
+    use_backend: yum
     name: unzip
     state: latest
 
